@@ -1,0 +1,27 @@
+{
+  "name": "dialogflowFirebaseFulfillment",
+  "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "12"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy_dev": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project ofish-bot-d1-rt9p",
+    "deploy_test": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project ofish-blucatch-testing",
+    "deploy_prod": "firebase deploy --only functions:dialogflowFirebaseFulfillment --project ofish-blucatch"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "axios": "0.20.0",
+    "dialogflow": "1.2.0",
+    "dialogflow-fulfillment": "0.6.1",
+    "eslint": "^7.11.0",
+    "firebase": "8.0.0",
+    "firebase-admin": "9.3.0",
+    "firebase-functions": "^3.11.0"
+  }
+}
