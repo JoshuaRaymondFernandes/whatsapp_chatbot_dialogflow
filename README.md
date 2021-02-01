@@ -1,4 +1,4 @@
-<h1>Whatsapp Chatbot using Google Dialogflow and Google Cloud Functions</h1>
+<h1>Whatsapp Chatbot using Google Dialogflow, Google Firestore and Google Cloud Functions in Nodejs</h1>
 
 Built a Whatsapp chatbot using Google Dialogflow, Google Cloud functions. 
 
