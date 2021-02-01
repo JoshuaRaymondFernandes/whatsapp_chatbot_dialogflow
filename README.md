@@ -6,6 +6,6 @@ The bot conversation flow is built in dialogflow using Intents.The chatbot works
 
 
 <img src=https://github.com/JoshuaRaymondFernandes/whatsapp_chatbot_dialogflow/blob/master/Pics/architecture.png />
-<b align="center">Dialogflow Architecture</b>
+                      <b align="center">Dialogflow Architecture</b>
 
 The 
